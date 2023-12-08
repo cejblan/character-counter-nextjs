@@ -12,7 +12,7 @@ export default function navbar() {
                 <p>Linkedin</p>
             </Link>
             <Link className="col-start-5 col-end-5 pt-1" href="/">
-                <Image className="m-auto" src={Logo} alt="Logo" width="69" height="69" />
+                <Image className="m-auto" src={Logo} alt="Logo Cejblan" width="81" height="81" />
             </Link>
             <Link className="col-start-7 col-end-7 bg-orange-500 rounded-b-2xl h-4 a" href="https://github.com/benfran21" target="_blank">
                 <p>GitHub</p>
