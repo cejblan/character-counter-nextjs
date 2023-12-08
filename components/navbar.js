@@ -14,7 +14,7 @@ export default function navbar() {
             <Link className="col-start-5 col-end-5 pt-1" href="/">
                 <Image className="m-auto" src={Logo} alt="Logo Cejblan" width="81" height="81" />
             </Link>
-            <Link className="col-start-7 col-end-7 bg-orange-500 rounded-b-2xl h-4 a" href="https://github.com/benfran21" target="_blank">
+            <Link className="col-start-7 col-end-7 bg-orange-500 rounded-b-2xl h-4 a" href="https://github.com/cejblan" target="_blank">
                 <p>GitHub</p>
             </Link>
             <Link className="col-start-8 col-end-8 bg-orange-500 rounded-b-2xl h-4 a" href="https://codepen.io/Francisco-Gonzalez-cejblan" target="_blank">
