@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+/* Navbar */
+nav {
+  box-shadow: 0 0 7px black;
+}
+
+nav .a {
+  box-shadow: 0 0 7px black;
+}
+
+nav .a:hover {
+  height: 4rem;
+  transition: height 0.5s ease-in-out;
+}
+
+nav .a:hover p {
+    padding-top: 1rem;
+    transition: padding-top 0.5s ease-in-out;
+}
+
+nav p,
+nav img {
+  filter: drop-shadow(0 0 3px black);
+}
+
+nav img:hover {
+  filter: drop-shadow(0 0 3px white);
+  transition: filter 0.5s ease-in-out;
+}
+
+/* Fin Navbar */
+/* Section */
+section {
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+/* Fin Section */
+/* Footer */
+footer {
+  position: relative;
+  z-index: 999;
+}
