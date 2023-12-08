@@ -23,11 +23,17 @@ nav {
 
 nav .a {
   box-shadow: 0 0 7px black;
+  transition: height 0.5s ease-in-out;
 }
 
 nav .a:hover {
   height: 4rem;
   transition: height 0.5s ease-in-out;
+}
+
+nav .a p {
+  padding-top: 0rem;
+  transition: padding-top 0.5s ease-in-out;
 }
 
 nav .a:hover p {
@@ -38,6 +44,7 @@ nav .a:hover p {
 nav p,
 nav img {
   filter: drop-shadow(0 0 3px black);
+  transition: filter 0.5s ease-in-out;
 }
 
 nav img:hover {
