@@ -37,8 +37,8 @@ nav .a p {
 }
 
 nav .a:hover p {
-    padding-top: 1rem;
-    transition: padding-top 0.5s ease-in-out;
+  padding-top: 1rem;
+  transition: padding-top 0.5s ease-in-out;
 }
 
 nav p,
@@ -64,4 +64,15 @@ section {
 footer {
   position: relative;
   z-index: 999;
+}
+
+/* Adaptar pantalla dispositivos móviles */
+@media (max-width: 768px) {
+
+  nav.text-xl {
+    font-size: 0.5rem;
+    padding-left: 0.1rem;
+    padding-right: 0.1rem;
+  }
+
 }
