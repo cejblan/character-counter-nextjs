@@ -26,7 +26,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="py-2">
+      <section className="home py-2">
         <div className="py-2">
           <h2 className="text-3xl">Bienvenido a mi:</h2>
           <h1 className="text-5xl">Contador de Caracteres</h1>
