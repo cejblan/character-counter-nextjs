@@ -16,6 +16,13 @@
   }
 }
 
+/* Globales */
+section {
+  padding: 1rem;
+  min-height: 100vh;
+}
+
+/* Fin Globales */
 /* Navbar */
 nav {
   box-shadow: 0 0 7px black;
@@ -53,13 +60,10 @@ nav img:hover {
 }
 
 /* Fin Navbar */
-/* Section */
-section {
-  padding: 1rem;
-  min-height: 100vh;
-}
+/* Home */
 
-/* Fin Section */
+
+/* Fin Home */
 /* Footer */
 footer {
   position: relative;
@@ -78,16 +82,16 @@ footer {
   }
   
   /* Fin Navbar */
-  /* Section */
-  section .flex {
+  /* Home */
+  .home .flex {
     display: block;
   }
   
-  section .flex textarea,
-  section .flex div {
+  .home .flex textarea,
+  .home .flex div {
     width: 100%;
     margin: auto;
   }
 
-  /* Fin Section */
+  /* Fin Home */
 }
